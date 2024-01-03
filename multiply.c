@@ -1,0 +1,16 @@
+#include <stdio.h> 
+
+float multiply(float a, float b)  
+{  
+  return a * b;  
+} 
+
+int main() 
+{ 
+    float A = 2.12, B = 3.88, product; 
+    product = multiply(A, B); 
+  
+    // Displaying result up to 3 decimal places. 
+    printf("Product of entered numbers is:%.3f", product); 
+  
+}
